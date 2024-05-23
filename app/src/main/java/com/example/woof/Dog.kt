@@ -3,7 +3,8 @@ package com.example.woof
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 
-/*A data class to represent the information presented in the dog card
+/**
+ * A data class to represent the information presented in the dog card
  */
 data class Dog(
     @DrawableRes val imageResourceId: Int,
